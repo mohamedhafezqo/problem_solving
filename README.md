@@ -1,2 +1,2 @@
-my leetcode & hackerrank solutions in js
+My leetcode & hackerrank solutions in js
 
