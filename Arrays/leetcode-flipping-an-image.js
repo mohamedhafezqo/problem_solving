@@ -1,4 +1,9 @@
-// Link https://leetcode.com/problems/flipping-an-image
+/**
+ * Link: https://leetcode.com/problems/flipping-an-image
+ * Input: [[1,1,0],[1,0,1],[0,0,0]]
+ * Output: [[1,0,0],[0,1,0],[1,1,1]]
+ */
+
 /**
  * @param {number[][]} A
  * @return {number[][]}
