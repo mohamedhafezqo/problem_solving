@@ -1,5 +1,10 @@
 // Link https://leetcode.com/problems/sort-array-by-parity
 
+/**
+ * Input: [3,1,2,4]
+ * Output: [2,4,3,1]
+ */
+
 // time complexity O(n)
 // space complexity O(n)
 /**
