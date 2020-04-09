@@ -22,9 +22,9 @@ var maxSubArray = function(nums) {
         let tempSum = nums[i] + nums[i-1];
 
         if (nums[i] < tempSum) {
-            nums[i] = nums[i-1] + nums[i];
+            nums[i] = tempSum;
         } else if (nums[i] > nums[i-1] && nums[i] < tempSum) {
-            nums[i] = nums[i-1] + nums[i];
+            nums[i] = tempSum;
         }
 
         maxSum = Math.max(maxSum, nums[i]);
